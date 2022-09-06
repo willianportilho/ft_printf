@@ -65,3 +65,37 @@ _Both outputs:_
 Hello, World!
 num = 10
 ```
+
+## 🛠️ Usage
+<p> For use this lib, follow these steps:</p>
+
+- Clone this repository:
+```
+https://github.com/willianportilho/ft_printf.git
+```
+
+- `make` for compiling the libftprintf.a.
+
+- Include this header on you code:
+``` c
+#include "./ft_printf.h"
+```
+_*If necessary, change the location. Remember that the include location depends on where your another files are._
+
+
+- Finally, compile the program whith this line:
+```
+gcc your_program_here.c libftprintf.a -o name_of_you_choice_here
+```
+_or:_
+```
+gcc your_program_here.c -L. -lftprintf -o name_of_you_choice_here
+```
+_*If necessary, change the location. Remember that the libftprintf.a location depends on where your file program are._
+
+## 🤖 Makefile Commands
+- `make` to create *.o objects and compile the libftprintf.a;
+- `make bonus` to include bonus functions (lists) in the libftprintf.a;
+- `make clean` to erase *.o objects;
+- `make fclean` to erase *.o objects and libftprintf.a;
+- `make re` to erase *.o objects and libftprintf.a, and recriate *.o and libftprintf.a;
