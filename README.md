@@ -9,6 +9,12 @@
 
 ---
 
+- [Introduction](#introduction)
+- [Explanation](#explanation)
+- [Example](#example)
+- [Usage](#%EF%B8%8F-usage)
+- [Makefile Commands](#-makefile-commands)
+
 ## Introduction
 
 This project had the purpose to replicate the printf function, which belongs to &lt;stdio.h&gt; lib, and learning about **_variadic functions_** in C.
